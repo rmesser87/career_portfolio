@@ -1,0 +1,893 @@
+ ==========================================================================
+  Wide Screen Layout: From 1200px.
+========================================================================== */
+@media (min-width: 1200px) {
+
+
+
+
+
+}
+/* ========= end fo Wide Screen Layout: From 1200px. ========= */
+
+
+/* ==========================================================================
+  Normal Desktop Layout: From 980px.
+========================================================================== */
+@media (min-width: 980px) and (max-width: 1199px) {
+
+
+
+}
+/* ========= end fo Normal Desktop Layout: From 980px. ========= */
+
+
+/* ==========================================================================
+  Tablet Device Layout: From 768px.
+========================================================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.freshr-hire-download-btn:before {
+    font-size: 5em;
+    left: -105px;
+}
+
+.freshr-services-single {
+    min-height: 255px;
+}
+
+.single-freshr-counter:before {
+    font-size: 6em;
+    top: 37px;
+}
+
+.single-freshr-counter h2 {
+    font-size: 4em;
+}
+
+.single-freshr-counter p {
+    margin-top: 0px;
+    font-size: 1.1em;
+}
+
+.freshr-portfolio-main-content p {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    width: 80%;
+    line-height: 1.25em;
+}
+
+
+}
+/* ========= end fo Tablet Device Layout: From 768px. ========= */
+
+/* ==========================================================================
+  Mobile Layout: From 320px.
+========================================================================== */
+@media (max-width: 767px) {
+
+.freshr-hero-heading h1 {
+    margin: 15px 0;
+    font-size: 2.5em;
+}
+.freshr-logo img {
+    max-width: 100px;
+}
+/*Blog Page CSS*/
+#freshr-blog-post-list {
+    margin: 25px 0px 30px;
+}
+
+.freshr-blog-page-single-post-column {
+    padding: 40px 0px;
+    position: relative;
+}
+
+.freshr-blog-head-area h4 {
+    font-size: 1.695em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.freshr-blog-quote-post-format {
+    padding: 30px 5%;
+}
+
+.freshr-blog-pagination .pagination li:first-child a, .freshr-blog-pagination .pagination li:last-child a {
+    text-indent: -9999px;
+}
+
+.freshr-blog-pagination .pagination li:first-child::before {
+    left: 30%;
+}
+
+.freshr-blog-pagination .pagination li:last-child::before {
+    right: 30%;
+}
+.freshr-contact-info-area {
+    text-align: center;
+}
+.single-contact-column::before {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+}
+
+
+
+
+/* ========= end fo Mobile Layout: From 320px. ========= */
+
+
+/* ==========================================================================
+  Wide Mobile Layout: 480px.
+========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+h2 {
+    font-size: 2.5em;
+}
+
+.freshr-banner-content-list h3 {
+    font-size: 1.7em;
+}
+
+.freshr-banner-content-list h1, .freshr-blog-banner-content-list h1 {
+    font-size: 2.5em;
+}
+
+.freshr-btn {
+    line-height: 45px;
+}
+
+.freshr-scroll-down a {
+    font-size: 2.5em;
+}
+
+.freshr-main-header-content h2:before {
+    font-size: 2.6em;
+}
+
+.freshr-header-bg-color {
+    padding: 40px 0px;
+}
+
+.freshr-about-me-promo {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.freshr-main-about-me {
+    padding-top: 20px;
+}
+
+#about_me_thumb {
+    max-height: 450px;
+}
+
+.about-me-data {
+    margin-top: 20px;
+}
+.about-me-data h2 {
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+
+.freshr-resume-header-title h3 {
+    padding-right: 0px;
+    margin-top: 0px;
+    font-size: 2.2em;
+}
+
+.freshr-resume-header-title h3:before {
+    right: -35px;
+}
+
+.education-resume-list .freshr-single-resume-row:after {
+    padding: 8px 6px;
+    left: -38px;
+}
+
+.freshr-single-resume-row:first-child:before, 
+.freshr-single-resume-row:before, 
+.freshr-single-resume-row:last-child:before {
+    top: 36px;
+}
+
+.freshr-single-resume-row h4 {
+    line-height: 26px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.freshr-single-resume-row:before {
+    left: 0px;
+    height: 2px;
+    width: 100%;
+}
+
+.freshr-single-resume-row:after {
+    left: -38px;
+    padding: 8px;
+    font-size: 18px;
+    top: 45px;
+}
+
+.single-skill-data-list {
+    padding: 25px 0px;
+}
+
+.freshr-call-to-action-button ul li {
+    margin-left: 0px;
+    width: 200px;
+}
+
+.freshr-call-to-action-button ul li a {
+    width: 100%;
+    text-align: left;
+}
+
+.freshr-service-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.freshr-service-right {
+    text-align: center;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.freshr-single-service-promo {
+    padding-bottom: 30px;
+}
+
+.freshr-interest-in-container {
+    width: 100%;
+}
+
+.freshr-hire-download-btn:before {
+    font-size: 4em;
+    top: 0%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -33px;
+}
+
+.freshr-hire-download-btn-section {
+    padding: 120px 0px 50px;
+    text-align: center;
+}
+
+.freshr-hire-download-btn-section h2 {
+    font-size: 1.3em;
+    letter-spacing: 2.5px;
+    line-height: 1.3em;
+}
+
+.freshr-hire-download-btn-section p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.freshr-portfolio-main-content p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    width: 100%;
+    line-height: 1.4em;
+}
+
+.freshr-portfolio-nav ul li {
+    padding: 5px 14px;
+    width: 100%;
+    border-bottom: 1px solid #999;
+}
+
+.freshr-portfolio-nav ul li.selected {
+    border-bottom: 1px solid #2EB267;
+}
+
+.single-freshr-testimonial-slide {
+    width: 100%;
+}
+
+#freshr-testimonial-section {
+    padding: 40px 0px;
+}
+
+.freshr-blog-post-thumbnail {
+    height: 300px;
+}
+
+.freshr-contact-main-column {
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+.freshr-contact-form-area .freshr-button {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.single-award-column {
+padding: 10px 40px;
+}
+
+.skill-data-list, .skill-data-columns {
+    width: 50%;
+}
+
+.freshr-portfolio-nav ul li {
+    width: 49% !important;
+}
+
+.freshr-blog-post-column {
+    width: 50%;
+}
+
+.freshr-blog-post-thumbnail {
+    height: 250px !important;
+}
+
+.single-freshr-counter {
+    width: 50%;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    border-right: 1px solid rgb(51, 51, 51);
+}
+
+.freshr-timeline-counter-row {
+overflow: hidden;
+}
+.single-freshr-counter.clients-counter,
+.single-freshr-counter.awards-counter {
+    border-right: 0px solid;
+}
+
+.freshr-award-win-part {
+width: 50%;
+}
+
+
+/*Blog Page CSS*/
+.freshr-blog-welcome-banner {
+    height: 275px;
+    background-position: 0px -50px;
+}
+
+/*500 Page*/
+.freshr-error-page-main-content {
+    position: relative;
+}
+
+
+
+}
+/* ========= end fo Wide Mobile Layout: 480px. ========= */
+
+
+
+/* ==========================================================================
+  Small Mobile Layout
+========================================================================== */
+@media (max-width: 479px) {
+
+h2 {
+    font-size: 2.0em;
+}
+
+.freshr-banner-content-list h3 {
+    font-size: 1.5em;
+}
+
+.freshr-banner-content-list h1, .freshr-blog-banner-content-list h1 {
+    font-size: 2em;
+}
+
+.freshr-btn {
+    line-height: 40px;
+    font-size: 0.9em;
+}
+
+.freshr-scroll-down a {
+    font-size: 2em;
+}
+
+.freshr-main-header-content h2:before {
+    font-size: 2.6em;
+}
+
+.freshr-header-bg-color {
+    padding: 40px 0px;
+}
+
+.freshr-about-me-promo {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.freshr-main-about-me {
+    padding-top: 20px;
+}
+
+#about_me_thumb {
+    max-height: 300px;
+}
+
+.about-me-data {
+    margin-top: 20px;
+}
+.about-me-data h2 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+
+.freshr-resume-header-title h3 {
+    padding-right: 0px;
+    margin-top: 0px;
+    font-size: 2em;
+}
+
+.freshr-resume-header-title h3:before {
+    right: -35px;
+}
+
+.education-resume-list .freshr-single-resume-row:after {
+    padding: 8px 6px;
+    left: -38px;
+}
+
+.freshr-single-resume-row:after {
+    font-size: 18px;
+}
+
+.freshr-single-resume-row:first-child:before, 
+.freshr-single-resume-row:before, 
+.freshr-single-resume-row:last-child:before {
+    top: 35px;
+}
+
+.freshr-single-resume-row h4 {
+    line-height: 26px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.freshr-single-resume-row:before {
+    left: 0px;
+    height: 2px;
+    width: 100%;
+}
+
+.freshr-single-resume-row:after {
+    left: -38px;
+    padding: 8px;
+    font-size: 18px;
+    top: 44px;
+}
+
+
+.single-skill-data-list {
+    padding: 25px 0px;
+}
+
+.freshr-call-to-action-button ul li {
+    margin-left: 0px;
+    width: 200px;
+}
+
+.freshr-call-to-action-button ul li:first-child {
+    margin-bottom: 10px;
+}
+
+.freshr-call-to-action-button ul li a {
+    width: 100%;
+    text-align: left;
+}
+
+.freshr-service-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.freshr-service-right {
+    text-align: center;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.freshr-single-service-promo {
+    padding-bottom: 30px;
+}
+
+.freshr-interest-in-container {
+    width: 100%;
+}
+
+.freshr-hire-download-btn:before {
+    font-size: 4em;
+    top: 0%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -33px;
+}
+
+.freshr-hire-download-btn-section {
+    padding: 120px 0px 50px;
+    text-align: center;
+}
+
+.freshr-hire-download-btn-section h2 {
+    font-size: 1.3em;
+    letter-spacing: 2.5px;
+    line-height: 1.3em;
+}
+
+.freshr-hire-download-btn-section p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.freshr-portfolio-main-content p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    width: 100%;
+    line-height: 1.4em;
+}
+
+.freshr-portfolio-nav ul li {
+    padding: 5px 14px;
+    width: 100%;
+    border-bottom: 1px solid #999;
+}
+
+.freshr-portfolio-nav ul li.selected {
+    border-bottom: 1px solid #2EB267;
+}
+
+.single-freshr-testimonial-slide {
+    width: 100%;
+}
+
+#freshr-testimonial-section {
+    padding: 40px 0px;
+}
+
+.freshr-blog-post-thumbnail {
+    height: 280px;
+}
+
+.freshr-contact-main-column {
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+.freshr-contact-form-area .freshr-button {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.single-award-column {
+padding: 15px 0px;
+}
+
+.textLeft .single-award-column, .textRight .single-award-column {
+text-align: center;
+}
+
+.textLeft .single-award-column::before, .textRight .single-award-column::before {
+background: linear-gradient(to right, #ffffff 0%, #dce0e2 50%, #ffffff 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+left: 50%;
+margin-left: -70px;
+right: auto;
+}
+
+.textLeft .single-award-column::after, .textRight .single-award-column::after {
+left: 50%;
+margin-left: -5px;
+right: auto;
+}
+
+.single-award-column::before {
+top: 0px;
+width: 140px;
+}
+
+.single-award-column::after {
+height: auto;
+top: -10px;
+width: auto;
+}
+
+.freshr-portfolio-items li a div span {
+font-size: .8em;
+line-height: 1em;
+}
+
+
+/*Blog Page CSS*/
+.freshr-blog-welcome-banner {
+    height: 355px;
+    background-position: center;
+}
+
+
+/*500 Page CSS*/
+.freshr-error-content h2 {
+    font-size: 6em;
+}
+
+.freshr-error-content h2 span {
+    margin-top: 25px;
+}
+
+.freshr-error-content h2 span.fresr-error-zero {
+    height: 260px;
+    margin: 0px;
+    width: 160px;
+}
+
+.freshr-error-title {
+    overflow: visible;
+}
+
+.freshr-error-subtitle {
+    bottom: -70px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.freshr-error-content h3 {
+    font-size: 1em;
+}
+
+.freshr-error-options {
+    padding-top: 100px;
+}
+
+.freshr-error-options ul li {
+    width: 210px;
+}
+
+.freshr-error-page-main-content {
+    position: relative;
+}
+
+#freshr-banner-section {
+    background-position: center;
+}
+
+
+
+}
+/* ========= end fo small Mobile Layout ========= 
+
+
+
+/* ==========================================================================
+  Small Mobile Layout
+========================================================================== */
+@media (max-width: 240px) {
+
+
+h2 {
+    font-size: 1.5em;
+}
+
+.freshr-main-header-content h2::before {
+    font-size: 2.3em;
+}
+
+.freshr-header-bg-color {
+    padding: 20px 0px;
+}
+
+.freshr-about-me-promo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.single_about_column {
+    float: left;
+    width: 210px;
+    margin-right: 15px;
+}
+
+.about-me-testimonial h3 {
+    font-size: 1.25em;
+    line-height: 25px;
+}
+
+.about-me-data h2 {
+    font-size: 1.2em;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+}
+
+.freshr-resume-header-title h3 {
+    font-size: 1.5em;
+}
+
+.freshr-resume-header-title {
+    margin-bottom: 16px;
+}
+
+.freshr-single-resume-row::after {
+    left: -30px;
+    padding: 6px;
+    font-size: 16px;
+    top: 38px;
+}
+
+.education-resume-list .freshr-single-resume-row::after {
+    padding: 7px 5px;
+    left: -30px;
+}
+
+.freshr-resume-row-list {
+    padding-left: 15%;
+}
+
+.freshr-single-resume-row:first-child::before, .freshr-single-resume-row::before, .freshr-single-resume-row:last-child::before {
+    top: 28px;
+}
+
+.freshr-resume-content-list {
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.single-skill-data-list {
+    padding: 15px 0px;
+}
+
+.freshr-call-to-action-button ul li {
+    margin-left: 0px;
+    width: 175px;
+}
+
+.freshr-button {
+    font-size: 1em;
+}
+
+.freshr-button .button__icon {
+    font-size: 14px;
+}
+
+.freshr-main-menu {
+    left: 20px;
+    top: 20px;
+}
+
+#freshr-main-menu-icon {
+    padding: 10px 12px;
+}
+
+#freshr-main-menu-nav {
+    padding: 10px 12px;
+}
+
+#freshr-main-menu-nav ul li a {
+    margin: 5px 0px 10px;
+    padding-bottom: 8px;
+}
+
+.freshr-banner-content-list h3 {
+    font-size: 1.3em;
+}
+
+.freshr-banner-content-list h1, .freshr-blog-banner-content-list h1 {
+    font-size: 1.8em;
+}
+
+.freshr-btn {
+    line-height: 35px;
+    font-size: 0.7em;
+}
+
+.freshr-btn span {
+    padding: 0px 8px;
+}
+
+.freshr-timeline-counter {
+    margin-top: 25px;
+}
+
+.single-freshr-counter h2 {
+    font-size: 3em;
+    margin-top: 45px;
+    text-shadow: 1px 1px 1px #666;
+}
+
+.single-freshr-counter::before {
+    font-size: 5em;
+}
+
+.single-freshr-counter p {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.single-freshr-counter {
+    padding-bottom: 15px;
+}
+
+.freshr-hire-download-btn-section h2 {
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+    line-height: 1.2em;
+}
+
+.freshr-blog-post-thumbnail {
+    height: 225px;
+}
+
+.freshr-blog-post {
+    padding: 35px 0px;
+}
+
+.freshr-contact-main-column {
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+.single_contact_column input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.freshr-social-bar li a {
+    margin: 0px 0px;
+    padding: 8px 0px;
+    width: 38px;
+}
+
+.up_to_bar {
+    margin-top: 15px;
+}
+
+#freshr-banner-section {
+    background-position: center;
+}
+
+.freshr-blog-welcome-banner {
+    height: 230px;
+}
+
+.freshr-blog-link-post-format figure a {
+    font-size: 1em;
+}
+
+.freshr-blog-link-post-format {
+    height: 200px;
+}
+
+.freshr_date_blog_post, .freshr_blog_post_format {
+    padding: 6px;
+    width: 60px;
+}
+
+.pagination > li > a, .pagination > li > span {
+    padding: 2px 8px;
+    font-size: .9em;
+}
+
+.freshr-footer-content > span {
+    font-size: .8em;
+}
+
+
+
+}
